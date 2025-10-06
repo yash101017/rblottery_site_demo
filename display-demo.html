@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Customer Display - Demo</title>
+<link rel="stylesheet" href="/css/styles.css">
+<style>
+  body{background:#000}
+  #stage{width:100vw;height:100vh;display:flex;align-items:center;justify-content:center;overflow:hidden;background:#000}
+  #stage img{width:100%;height:100%;object-fit:contain}
+  .hint{position:fixed;bottom:12px;right:12px;background:rgba(0,0,0,.5);color:#fff;padding:8px 10px;border-radius:8px;font-size:12px}
+</style>
+</head><body>
+<div id="stage"><img id="slide" src="/assets/demo1.jpg" alt="Demo banner 1"></div>
+<div class="hint">Press F11 for full-screen • Rotating local banners every 10s (no ads)</div>
+<script src="/js/player.js"></script>
+</body></html>
